@@ -88,8 +88,8 @@ if (siswa.score >= 90) {
     return `
       <tr>
         <td>${index + 1}</td>
-        <td class="fw-semibold">${siswa.name}</td>
-        <td>${siswa.class}</td>
+        <td class="fw-medium">${siswa.name}</td>
+        <td><span class="bg-secondary text-white rounded p-1 fw-medium ">${siswa.class}</span></td>
         <td><span class="badge ${warnaNilai}">${siswa.score}</span></td>
       </tr>
     `;
